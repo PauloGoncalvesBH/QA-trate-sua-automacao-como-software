@@ -1,0 +1,23 @@
+name: Publicar artigo no dev.to
+
+on:
+ push:
+   branches: 
+     - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Fazer checkout
+      uses: actions/checkout@v1
+    - name: Configurar Node.js
+      uses: actions/setup-node@v1.1.0
+    - name: Instalar a dependência dev.to
+      run: npm install --production
+    - name: Publicar artigo
+      env:
+        DEV_TO_GIT_TOKEN: ${{ secrets.DEV_TO_GIT_TOKEN }}
+      run: npm run publicar-artigo

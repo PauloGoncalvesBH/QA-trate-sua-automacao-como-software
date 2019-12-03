@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git"
+  },
+  "scripts": {
+    "publicar-artigo": "dev-to-git"
+  },
+  "dependencies": {
+    "dev-to-git": "1.4.1"
+  }
+}
