@@ -11,8 +11,6 @@ series:
 <!--- Acima está o cabeçalho, com as informações do seu post, edite-as de acordo com sua necessidade. Para saber mais: https://dev.to/p/editor_guide
 Apague tudo que está abaixo dessa linha e escreva seu post --->
 
-> _Deficiente visual: Se você sentir alguma dificuldade ao ler as imagens desse post com o leitor de tela, me informe que irei melhorar com seu apoio. Pode ser via e-mail (paulorochag@hotmail.com) ou na seção de discussão mais abaixo._
-
 Quando pensamos em automação de testes, muitas vezes passa pela nossa cabeça questões como pirâmide de testes e qual linguagem/framework será utilizado para realizar a automação. Caso seja levado em conta boas práticas de automação, não passamos da discussão de adotar page objects ou page actions na automação de interface.
 
 Porém, é importante atentarmos que há muitos outros fatores determinantes para a manutenção daquela automação por membros da equipe, afinal, quem nunca trocou trechos de código via chat ou teve dificuldade para saber porque que uma determinada alteração foi realizada na automação? 
